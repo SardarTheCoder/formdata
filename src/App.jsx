@@ -1,5 +1,6 @@
 import './App.css'
-import UseState from './components/UseState'
+import UseEffect from './components/UseEffect'
+// import UseState from './components/UseState'
 import  './index.css'
 function App() {
  
@@ -8,7 +9,8 @@ function App() {
     <>
       
        <div className="bg-slate-700 h-screen w-screen">
-       <UseState/>
+       {/* <UseState/> */}
+       <UseEffect />
         </div>
     </>
   )
